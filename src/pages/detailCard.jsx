@@ -3,9 +3,6 @@ import style from "./detailCard.module.css";
 export function DetailCard() {
   return (
     <main className={style["deatil-wrap"]}>
-      <div className={style["back-wrap"]}>
-      <span>뒤로가기</span>
-      </div>
       <article className={style["detail-content"]}>
         <h1>제목</h1>
         <p className={style["date-of-issue"]}>작성일자</p>
