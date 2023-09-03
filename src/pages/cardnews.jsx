@@ -33,7 +33,7 @@ export function CardNews() {
       ) : (
         <div className={style["cards"]}>
           {datas.map((v, idx) => (
-            <article key={idx} className={style["card"]}>{v.title}</article> 
+            <article key={idx} className={style["card"]}>{v.title}</article>
           ))}
         </div>
       )}

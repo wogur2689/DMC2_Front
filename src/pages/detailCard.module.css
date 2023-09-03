@@ -1,8 +1,11 @@
 .deatil-wrap {
   max-width: 390px;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   margin: 0 auto;
+  border: 1px solid #000;
+  border-radius: 10%;
+  background-color: #264790;
 }
 
 .back-wrap span {
@@ -23,7 +26,7 @@ h1 {
 
 .detail-img {
   background: #F3F4F7;
-  height: 230px;
+  height: 130px;
 }
 
 .explanation {
@@ -32,13 +35,6 @@ h1 {
 }
 
 .content-descriptions {
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 0 15px;
-}
-
-.content-descriptions ul {
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
 }
