@@ -1,8 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
-import CardHeader from "../component/cardHeader";
-import CardBody from "../component/cartBody";
-import style from "./cardnews.module.css";
+import style from "../pages/cardnews.module.css"
 
 export function CardNews() {
   const [loading, setLoading] = useState(true); //로딩
@@ -25,27 +23,20 @@ export function CardNews() {
 
   useEffect(() => {
     fetchCardNews();
-    console.log(datas)
   }, []);
 
   //2. 카드뉴스 map형식으로 반환
   return (
-    <>
+    <main className={style["card-wrap"]}>
       {loading ? (
         <span>Loading...</span>
       ) : (
-        <>
-          {datas.map((v) => (
-            <main className={style["wrap"]}>
-              <article className={style["detail-content"]}>
-                <CardHeader props={v}/>
-                <CardBody props={v}/>
-              </article>
-            </main>
+        <div className={style["cards"]}>
+          {datas.map((v, idx) => (
+            <article key={idx} className={style["card"]}>{v.title}</article>
           ))}
-        </>
-        )
-      }
-    </>
+        </div>
+      )}
+    </main>
   );
 }

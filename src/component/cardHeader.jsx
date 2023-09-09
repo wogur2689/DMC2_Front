@@ -1,10 +1,10 @@
 import style from './cardHeader.module.css';
 
-function cardHeader() {
+function cardHeader({props}) {
     return (
         <>
-            <h1>제목</h1>
-            <p className={style["date-of-issue"]}>작성일자</p>
+            <h4>{props.title}</h4>
+            <p className={style["date-of-issue"]}>{props.create_at}</p>
         </>
     )
 }
