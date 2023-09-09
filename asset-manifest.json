@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dmc2_front/static/css/main.1740f265.css",
+    "main.js": "/dmc2_front/static/js/main.0d406363.js",
+    "index.html": "/dmc2_front/index.html",
+    "main.1740f265.css.map": "/dmc2_front/static/css/main.1740f265.css.map",
+    "main.0d406363.js.map": "/dmc2_front/static/js/main.0d406363.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1740f265.css",
+    "static/js/main.0d406363.js"
+  ]
+}
