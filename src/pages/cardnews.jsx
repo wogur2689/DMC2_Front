@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import CardHeader from "../component/cardHeader";
-import CardBody from "../component/cartBody";
+import CardBody from "../component/CartBody";
 import style from "./cardnews.module.css";
 import datazip from '../data/data.json'; //목데이터
 //<img src={`data:image/png;base64,${props.imgEncoding}`} alt="image" className={style["imgSrc"]}/> //이미지 불러오는 방법
