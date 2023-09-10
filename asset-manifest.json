@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/dmc2_front/static/css/main.385fac6f.css",
-    "main.js": "/dmc2_front/static/js/main.0d406363.js",
+    "main.css": "/dmc2_front/static/css/main.6f88819c.css",
+    "main.js": "/dmc2_front/static/js/main.a41da7a1.js",
     "index.html": "/dmc2_front/index.html",
-    "main.385fac6f.css.map": "/dmc2_front/static/css/main.385fac6f.css.map",
-    "main.0d406363.js.map": "/dmc2_front/static/js/main.0d406363.js.map"
+    "main.6f88819c.css.map": "/dmc2_front/static/css/main.6f88819c.css.map",
+    "main.a41da7a1.js.map": "/dmc2_front/static/js/main.a41da7a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.385fac6f.css",
-    "static/js/main.0d406363.js"
+    "static/css/main.6f88819c.css",
+    "static/js/main.a41da7a1.js"
   ]
 }
